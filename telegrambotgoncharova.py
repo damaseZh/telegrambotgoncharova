@@ -3,7 +3,6 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InputFile
 from aiogram.utils import executor
 
-API_TOKEN = '7099011946:AAEiH47rm2TPRt29Dx9P9UdvgUSexe5p8pE'
 CHANNEL = '@mamadoctorgonchrovabot'
 PDF_FILE = '10_полезных_привычек_для_родителей_нового_поколения_2.pdf'
 
