@@ -1,8 +1,14 @@
 import logging
+import os
+
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InputFile
 from aiogram.utils import executor
+from dotenv import load_dotenv
 
+load_dotenv()
+
+API_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL = '@mamadoctorgonchrovabot'
 PDF_FILE = '10_полезных_привычек_для_родителей_нового_поколения_2.pdf'
 
