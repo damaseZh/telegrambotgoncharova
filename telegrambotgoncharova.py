@@ -3,7 +3,7 @@ import os
 
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InputFile
-from aiogram.utils import executor
+from aiogram import executor
 from dotenv import load_dotenv
 
 load_dotenv()
